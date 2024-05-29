@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background And Image Property And Visibility</title>
+    
+    <style>
+        #icon {
+            height: 50px;
+            width: 50px;
+            background-image: url(myntra.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: top;
+        }
+
+        .box {
+            height: 55px;
+            width: 55px;
+        }
+
+        #box1 {
+            background-color: blue;
+            visibility: hidden;
+        }
+        
+        #box2 {
+            background-color: brown;
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <div id="icon"></div>
+
+    <div id="box1" class="box">Box 1</div>
+    <div id="box2" class="box">Box 2</div>
+
+</body>
+</html>
