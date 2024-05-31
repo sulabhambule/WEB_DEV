@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.DIV {
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    background-color: aqua;
+    border: 2px dotted red;
+}
+
+
+
+#button {
+    height: 70px;
+    width: 70px;
+    margin: 100px;
+    padding: 10px 15px;
+    border: 2px dotted red;
+    border-radius: 36px;
+}
