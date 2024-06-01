@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EM Unit</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 25px;
+        }
+        #first {
+            background-color: rgb(95, 222, 222);
+            height: 100px;
+            width: 200px;
+            font-size: 15px;
+        }
+
+        #second {
+            background-color: blanchedalmond;
+            width: 50%;
+            height: 60%;
+            font-size: 2rem;
+            /* Em the font size is relative to the font size of parent of it */
+
+            /* REM - font size is depend upon the (ROOT ELEMENT)body */
+        }
+    </style>
+</head>
+<body>
+    BODY TEXT
+    <div id="first">
+        First Div
+        <div id="second">
+            Second Div
+        </div>
+    </div>
+</body>
+</html>
