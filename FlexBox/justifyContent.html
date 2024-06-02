@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>justify Content Container</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #heading {
+        text-align: center;
+      }
+      #container {
+        height: 600px;
+        width: 600px;
+        padding: 10px;
+        margin: 20px;
+        border: 2px solid darkblue;
+        border-radius: 4px;
+        background-color: rgb(91, 164, 228);
+
+        display: flex;
+        justify-content: space-between;
+        /* flex-direction: row; */
+        
+      }
+      .box {
+        width: 75px;
+        height: 75px;
+        border: 3px solid black;
+        margin: 5px;
+        border-radius: 4px;
+        text-align: center;
+      }
+      #box1 {
+        background-color: aqua;
+      }
+      #box2 {
+        background-color: rgb(237, 100, 219);
+      }
+      #box3 {
+        background-color: rgb(141, 183, 224);
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="heading">Flex Container</h1>
+    <div id="container">
+      <div id="box1" class="box">Item1</div>
+      <div id="box2" class="box">Item2</div>
+      <div id="box3" class="box">Item3</div>
+    </div>
+  </body>
+</html>
